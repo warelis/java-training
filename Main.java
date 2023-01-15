@@ -39,12 +39,12 @@ public class Main {
 
         /* Zadanie 6
          */
-        int wiekKlient;
-        int wiekZwierze;
-        String imiePupil;
-        boolean pelnoletnosc;
-        char rozmiarUbrania;
-        String cytat;
+        int ageCustomer;
+        int ageAnimal;
+        String namePet;
+        boolean comingOfAge;
+        char clothesSize;
+        String quote;
 
         /* Zadanie 7
          */
