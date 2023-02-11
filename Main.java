@@ -1,65 +1,61 @@
 public class Main {
     public static void main(String[] args) {
 
-        /* 1 Zadanie
-        * 500g mąki pszennej
-        * 14 g drożdży
-        * 50g cukru
-        * 1 łyżeczka soli
-        * 300 ml mleka
-        * 50 g masła
-        * xd
+        /*Zadanie 1*/
+        int num1 = 2;
+        int num2 = 1;
+
+        System.out.println(num1 + num2);
+        System.out.println(num1 - num2);
+        System.out.println(num1 * num2);
+        System.out.println(num1 / num2);
+
+        /*Zadanie 2
+        * A nie wiem
         */
-        int maka = 500;
-        int drozdze = 14;
-        int cukier = 50;
-        int lyzeczka_soli = 1;
-        int mleko = 300;
-        int maslo = 50;
+        /*Zadanie 3*/
 
-        /* 2 Zadanie - nie */
+        int num;
+        num = 3+2;
 
-        float xd = 3.14f;
+        /*Zadanie 4D
+        * Wartość, która dosłownie została już przypisana do zmiennej np. int x = 1;
+        * */
 
-        /* Zadanie 3
-         */
-        System.out.println("\\n");
+        /*Zadanie 5D
+        * 5/3 - double
+        * 4.0f + 3.0 - double
+        * 3_000_000_000L + 1 - long
+        * 0.3 * 5 - double
+        * */
 
-        /* Zadanie 4 Liczba się pomniejszy wg 0 1 zasady którą tłumaczyłeś i zamieni się na -
-         */
-        long big = 3_000_000_0000L;
-        System.out.println(big);
-        int small = (int)big;
-        System.out.println(small);
+        /*Zadanie 6D
+        * 5 - int
+        * 3.14 - double
+        * 'a' - char
+        * "It's over." - String
+        * */
 
-        /* Zadanie 5
-         */
-        float picie = 1.1f + 1.5f;
-        System.out.printf("%.10f\n", picie);
+        /*Zadanie 7
+        * W przykładzie 1 przyjmuje wartość true, gdy wiek jest większy lub równy 18
+        * W przykładzie 2 przyjmuje wartość true, gdy wiek jest mniejszy niż 18, bo jest negacja
+        * W przykładzie 3 przyjmuje wartość true, gdy cup jest większy od 0 i tea jest większe lub równe od cup
+        * W przykładzie 4 przyjmuje wartość true, gdy ...chyba nie przyjmuje xd
+        * W przykładzie 5 przyjmuje wartość true, gdy jest isKeyPressed i keyCode (który musi równać się 1 lub 2)
+        * A nie wiem jaka różnica, na mój małpi rozum wydaje mi się, że w isTrue2 wyjdzie true, gdy występuje isKeyPressed i KeyCode równe 1
+        * lub gdy jest keycode równe 2
+        * W przykładzie 7 przyjmuje wartość true, gdy zero == 0;
+        */
 
-        /* Zadanie 6
-         */
-        int ageCustomer;
-        int ageAnimal;
-        String namePet;
-        boolean comingOfAge;
-        char clothesSize;
-        String quote;
+        /*Zadanie 8*/
+        int xd = 2;
+        xd *= -1;
 
-        /* Zadanie 7
-         */
-        char a = 'a';
-        int aKonwert = (int)a;
-        System.out.println(aKonwert);
-        char duzeA = 'A';
-        int duzeAKonwert = (int)duzeA;
-        System.out.println(duzeAKonwert);
-        char z = 'z';
-        int zKonwert = (int)z;
-        System.out.println(zKonwert);
-        char duzeZ = 'Z';
-        int duzeZKonwert = (int)duzeZ;
-        System.out.println(duzeZKonwert);
+
+        /*Zadanie 9
+        * Operatory logiczne -> Oparetory porównania -> "Ten przeklęty operator == !"
+        * mam problem ze zrozumieniem notTheSame, czemu to nie jest to samo? Bo klasa inna czy co
+        * */
 
     }
 }
