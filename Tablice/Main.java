@@ -36,8 +36,33 @@ public class Main {
 //          return sum;
 //      }
 
-    //Ex4
-
+//    //Ex4
+//        static int max = 10;
+//        static int pointer = 0;
+//        public static String[] usernames = new String[max];
+//        public static String[] passwords = new String[max];
+//        public static boolean loginSuccessful = false;
+//        public static void registration(String username, String password) {
+//            if (pointer < max) {
+//                usernames[pointer] = username;
+//                passwords[pointer] = password;
+//                pointer++;
+//            } else {
+//                System.out.println("Not enough memory");
+//            }
+//        }
+//        public static void login(String username, String password){
+//            for(int i = 0; i < pointer; i++){
+//                if(usernames[i].equals(username) && passwords[i].equals(password)){
+//                    System.out.println("Welcome " + username);
+//                    loginSuccessful = true;
+//                    return;
+//                }
+//            }
+//            if(!loginSuccessful){
+//                System.out.println("Invalid username or password");
+//            }
+//        }
 
     public static void main(String[] args) {
 //       Ex1
@@ -56,8 +81,42 @@ public class Main {
 //        int result = sumOf(howMany);
 //        System.out.println(result);
 
-        //Ex4
-
+//        //Ex4
+//          Scanner scan = new Scanner(System.in);
+//          System.out.println("Press 1 for registration, 2 for login or 3 to exit");
+//          int input = scan.nextInt();
+//          //Example data
+////            registration("1", "a");
+////            registration("2", "b");
+////            registration("3", "c");
+////            registration("4", "d");
+////            registration("5", "a");
+////            registration("6", "b");
+////            registration("7", "c");
+////            registration("8", "d");
+////            registration("9", "a");
+////            registration("10", "b");
+////            registration("11", "b");
+//
+//              switch (input) {
+//
+//                  case 1:
+//                          System.out.println("Registration");
+//                          System.out.print("Enter login: ");
+//                          String username = scan.next();
+//                          System.out.print("Enter password: ");
+//                          String password = scan.next();
+//                          registration(username, password);
+//                      break;
+//                  case 2:
+//                          System.out.println("Login");
+//                          System.out.print("Enter login: ");
+//                          username = scan.next();
+//                          System.out.print("Enter password: ");
+//                          password = scan.next();
+//                          login(username, password);
+//                      break;
+//          }
 
 
 
